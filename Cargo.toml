@@ -1,0 +1,38 @@
+[package]
+name = "pleme-config"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+description = "Configuration management library for Pleme platform"
+repository = "https://github.com/pleme-io/pleme-config"
+homepage = "https://github.com/pleme-io/pleme-config"
+readme = "README.md"
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
+envy = "0.4"
+thiserror = "1.0"
+config = { version = "0.14", optional = true }
+figment = { version = "0.10", features = ["env"], optional = true }
+validator = { version = "0.18", features = ["derive"], optional = true }
+serde_json = { version = "1.0", optional = true }
+serde_yaml = { version = "0.9", optional = true }
+toml = { version = "0.8", optional = true }
+age = { version = "0.10", optional = true }
+base64 = { version = "0.22", optional = true }
+url = { version = "2.5", optional = true }
+
+[dev-dependencies]
+tokio = { version = "1.35", features = ["full"] }
+temp-env = "0.3"
+
+[features]
+default = ["multi-source", "formats", "database"]
+multi-source = ["config", "figment"]
+validation = ["validator"]
+formats = ["serde_json", "serde_yaml", "toml"]
+secrets = ["age", "base64"]
+database = ["url"]
+full = ["multi-source", "validation", "formats", "secrets", "database"]
+
+
