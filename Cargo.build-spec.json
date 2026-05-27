@@ -24,6 +24,10 @@
       "proc_macro": false,
       "build_script": "build.rs",
       "binaries": [],
+      "lib_target": {
+        "name": "ahash",
+        "path": "src/lib.rs"
+      },
       "dependencies": [
         {
           "name": "cfg_if",
@@ -135,6 +139,10 @@
       "proc_macro": false,
       "build_script": null,
       "binaries": [],
+      "lib_target": {
+        "name": "allocator_api2",
+        "path": "src/lib.rs"
+      },
       "dependencies": [],
       "runtime_dependencies": [],
       "build_dependencies": [],
@@ -157,6 +165,10 @@
       "proc_macro": false,
       "build_script": null,
       "binaries": [],
+      "lib_target": {
+        "name": "arraydeque",
+        "path": "src/lib.rs"
+      },
       "dependencies": [],
       "runtime_dependencies": [],
       "build_dependencies": [],
@@ -176,6 +188,10 @@
       "proc_macro": true,
       "build_script": null,
       "binaries": [],
+      "lib_target": {
+        "name": "async_trait",
+        "path": "src/lib.rs"
+      },
       "dependencies": [
         {
           "name": "proc_macro2",
@@ -276,6 +292,10 @@
       "proc_macro": false,
       "build_script": null,
       "binaries": [],
+      "lib_target": {
+        "name": "base64",
+        "path": "src/lib.rs"
+      },
       "dependencies": [],
       "runtime_dependencies": [],
       "build_dependencies": [],
@@ -298,6 +318,10 @@
       "proc_macro": false,
       "build_script": null,
       "binaries": [],
+      "lib_target": {
+        "name": "bitflags",
+        "path": "src/lib.rs"
+      },
       "dependencies": [
         {
           "name": "serde_core",
@@ -337,6 +361,10 @@
       "proc_macro": false,
       "build_script": null,
       "binaries": [],
+      "lib_target": {
+        "name": "block_buffer",
+        "path": "src/lib.rs"
+      },
       "dependencies": [
         {
           "name": "generic_array",
@@ -386,6 +414,10 @@
       "proc_macro": false,
       "build_script": null,
       "binaries": [],
+      "lib_target": {
+        "name": "bytes",
+        "path": "src/lib.rs"
+      },
       "dependencies": [],
       "runtime_dependencies": [],
       "build_dependencies": [],
@@ -405,6 +437,10 @@
       "proc_macro": false,
       "build_script": null,
       "binaries": [],
+      "lib_target": {
+        "name": "cfg_if",
+        "path": "src/lib.rs"
+      },
       "dependencies": [],
       "runtime_dependencies": [],
       "build_dependencies": [],
@@ -440,6 +476,10 @@
       "proc_macro": false,
       "build_script": null,
       "binaries": [],
+      "lib_target": {
+        "name": "config",
+        "path": "src/lib.rs"
+      },
       "dependencies": [
         {
           "name": "async_trait",
@@ -684,6 +724,10 @@
       "proc_macro": false,
       "build_script": null,
       "binaries": [],
+      "lib_target": {
+        "name": "const_random",
+        "path": "src/lib.rs"
+      },
       "dependencies": [
         {
           "name": "const_random_macro",
@@ -730,6 +774,10 @@
       "proc_macro": true,
       "build_script": null,
       "binaries": [],
+      "lib_target": {
+        "name": "const_random_macro",
+        "path": "src/lib.rs"
+      },
       "dependencies": [
         {
           "name": "getrandom",
@@ -818,6 +866,10 @@
       "proc_macro": false,
       "build_script": null,
       "binaries": [],
+      "lib_target": {
+        "name": "convert_case",
+        "path": "src/lib.rs"
+      },
       "dependencies": [
         {
           "name": "unicode_segmentation",
@@ -864,6 +916,10 @@
       "proc_macro": false,
       "build_script": null,
       "binaries": [],
+      "lib_target": {
+        "name": "cpufeatures",
+        "path": "src/lib.rs"
+      },
       "dependencies": [
         {
           "name": "libc",
@@ -906,6 +962,10 @@
       "proc_macro": false,
       "build_script": "build.rs",
       "binaries": [],
+      "lib_target": {
+        "name": "crunchy",
+        "path": "src/lib.rs"
+      },
       "dependencies": [],
       "runtime_dependencies": [],
       "build_dependencies": [],
@@ -925,6 +985,10 @@
       "proc_macro": false,
       "build_script": null,
       "binaries": [],
+      "lib_target": {
+        "name": "crypto_common",
+        "path": "src/lib.rs"
+      },
       "dependencies": [
         {
           "name": "generic_array",
@@ -993,6 +1057,10 @@
       "proc_macro": false,
       "build_script": null,
       "binaries": [],
+      "lib_target": {
+        "name": "digest",
+        "path": "src/lib.rs"
+      },
       "dependencies": [
         {
           "name": "block_buffer",
@@ -1063,6 +1131,10 @@
       "proc_macro": true,
       "build_script": null,
       "binaries": [],
+      "lib_target": {
+        "name": "displaydoc",
+        "path": "src/lib.rs"
+      },
       "dependencies": [
         {
           "name": "proc_macro2",
@@ -1147,6 +1219,10 @@
       "proc_macro": false,
       "build_script": null,
       "binaries": [],
+      "lib_target": {
+        "name": "dlv_list",
+        "path": "src/lib.rs"
+      },
       "dependencies": [
         {
           "name": "const_random",
@@ -1196,6 +1272,10 @@
       "proc_macro": false,
       "build_script": null,
       "binaries": [],
+      "lib_target": {
+        "name": "encoding_rs",
+        "path": "src/lib.rs"
+      },
       "dependencies": [
         {
           "name": "cfg_if",
@@ -1242,6 +1322,10 @@
       "proc_macro": false,
       "build_script": null,
       "binaries": [],
+      "lib_target": {
+        "name": "envy",
+        "path": "src/lib.rs"
+      },
       "dependencies": [
         {
           "name": "serde",
@@ -1281,6 +1365,10 @@
       "proc_macro": false,
       "build_script": null,
       "binaries": [],
+      "lib_target": {
+        "name": "equivalent",
+        "path": "src/lib.rs"
+      },
       "dependencies": [],
       "runtime_dependencies": [],
       "build_dependencies": [],
@@ -1303,6 +1391,10 @@
       "proc_macro": false,
       "build_script": null,
       "binaries": [],
+      "lib_target": {
+        "name": "errno",
+        "path": "src/lib.rs"
+      },
       "dependencies": [
         {
           "name": "libc",
@@ -1345,6 +1437,10 @@
       "proc_macro": false,
       "build_script": null,
       "binaries": [],
+      "lib_target": {
+        "name": "form_urlencoded",
+        "path": "src/lib.rs"
+      },
       "dependencies": [
         {
           "name": "percent_encoding",
@@ -1393,6 +1489,10 @@
       "proc_macro": false,
       "build_script": "build.rs",
       "binaries": [],
+      "lib_target": {
+        "name": "generic_array",
+        "path": "src/lib.rs"
+      },
       "dependencies": [
         {
           "name": "typenum",
@@ -1451,6 +1551,10 @@
       "proc_macro": false,
       "build_script": null,
       "binaries": [],
+      "lib_target": {
+        "name": "getrandom",
+        "path": "src/lib.rs"
+      },
       "dependencies": [
         {
           "name": "cfg_if",
@@ -1520,6 +1624,10 @@
       "proc_macro": false,
       "build_script": null,
       "binaries": [],
+      "lib_target": {
+        "name": "hashbrown",
+        "path": "src/lib.rs"
+      },
       "dependencies": [
         {
           "name": "ahash",
@@ -1584,6 +1692,10 @@
       "proc_macro": false,
       "build_script": null,
       "binaries": [],
+      "lib_target": {
+        "name": "hashbrown",
+        "path": "src/lib.rs"
+      },
       "dependencies": [],
       "runtime_dependencies": [],
       "build_dependencies": [],
@@ -1603,6 +1715,10 @@
       "proc_macro": false,
       "build_script": null,
       "binaries": [],
+      "lib_target": {
+        "name": "hashlink",
+        "path": "src/lib.rs"
+      },
       "dependencies": [
         {
           "name": "hashbrown",
@@ -1642,6 +1758,10 @@
       "proc_macro": false,
       "build_script": null,
       "binaries": [],
+      "lib_target": {
+        "name": "icu_collections",
+        "path": "src/lib.rs"
+      },
       "dependencies": [
         {
           "name": "displaydoc",
@@ -1773,6 +1893,10 @@
       "proc_macro": false,
       "build_script": null,
       "binaries": [],
+      "lib_target": {
+        "name": "icu_locale_core",
+        "path": "src/lib.rs"
+      },
       "dependencies": [
         {
           "name": "displaydoc",
@@ -1886,6 +2010,10 @@
       "proc_macro": false,
       "build_script": null,
       "binaries": [],
+      "lib_target": {
+        "name": "icu_normalizer",
+        "path": "src/lib.rs"
+      },
       "dependencies": [
         {
           "name": "icu_collections",
@@ -2015,6 +2143,10 @@
       "proc_macro": false,
       "build_script": "build.rs",
       "binaries": [],
+      "lib_target": {
+        "name": "icu_normalizer_data",
+        "path": "src/lib.rs"
+      },
       "dependencies": [],
       "runtime_dependencies": [],
       "build_dependencies": [],
@@ -2036,6 +2168,10 @@
       "proc_macro": false,
       "build_script": null,
       "binaries": [],
+      "lib_target": {
+        "name": "icu_properties",
+        "path": "src/lib.rs"
+      },
       "dependencies": [
         {
           "name": "icu_collections",
@@ -2181,6 +2317,10 @@
       "proc_macro": false,
       "build_script": "build.rs",
       "binaries": [],
+      "lib_target": {
+        "name": "icu_properties_data",
+        "path": "src/lib.rs"
+      },
       "dependencies": [],
       "runtime_dependencies": [],
       "build_dependencies": [],
@@ -2202,6 +2342,10 @@
       "proc_macro": false,
       "build_script": null,
       "binaries": [],
+      "lib_target": {
+        "name": "icu_provider",
+        "path": "src/lib.rs"
+      },
       "dependencies": [
         {
           "name": "displaydoc",
@@ -2365,6 +2509,10 @@
       "proc_macro": false,
       "build_script": null,
       "binaries": [],
+      "lib_target": {
+        "name": "idna",
+        "path": "src/lib.rs"
+      },
       "dependencies": [
         {
           "name": "idna_adapter",
@@ -2446,6 +2594,10 @@
       "proc_macro": false,
       "build_script": null,
       "binaries": [],
+      "lib_target": {
+        "name": "idna_adapter",
+        "path": "src/lib.rs"
+      },
       "dependencies": [
         {
           "name": "icu_normalizer",
@@ -2506,6 +2658,10 @@
       "proc_macro": false,
       "build_script": null,
       "binaries": [],
+      "lib_target": {
+        "name": "indexmap",
+        "path": "src/lib.rs"
+      },
       "dependencies": [
         {
           "name": "equivalent",
@@ -2563,6 +2719,10 @@
       "proc_macro": false,
       "build_script": null,
       "binaries": [],
+      "lib_target": {
+        "name": "itoa",
+        "path": "src/lib.rs"
+      },
       "dependencies": [],
       "runtime_dependencies": [],
       "build_dependencies": [],
@@ -2582,6 +2742,10 @@
       "proc_macro": false,
       "build_script": null,
       "binaries": [],
+      "lib_target": {
+        "name": "json5",
+        "path": "src/lib.rs"
+      },
       "dependencies": [
         {
           "name": "pest",
@@ -2660,6 +2824,10 @@
       "proc_macro": false,
       "build_script": "build.rs",
       "binaries": [],
+      "lib_target": {
+        "name": "libc",
+        "path": "src/lib.rs"
+      },
       "dependencies": [],
       "runtime_dependencies": [],
       "build_dependencies": [],
@@ -2679,6 +2847,10 @@
       "proc_macro": false,
       "build_script": null,
       "binaries": [],
+      "lib_target": {
+        "name": "litemap",
+        "path": "src/lib.rs"
+      },
       "dependencies": [],
       "runtime_dependencies": [],
       "build_dependencies": [],
@@ -2701,6 +2873,10 @@
       "proc_macro": false,
       "build_script": null,
       "binaries": [],
+      "lib_target": {
+        "name": "lock_api",
+        "path": "src/lib.rs"
+      },
       "dependencies": [
         {
           "name": "scopeguard",
@@ -2744,6 +2920,10 @@
       "proc_macro": false,
       "build_script": null,
       "binaries": [],
+      "lib_target": {
+        "name": "memchr",
+        "path": "src/lib.rs"
+      },
       "dependencies": [],
       "runtime_dependencies": [],
       "build_dependencies": [],
@@ -2765,6 +2945,10 @@
       "proc_macro": false,
       "build_script": null,
       "binaries": [],
+      "lib_target": {
+        "name": "minimal_lexical",
+        "path": "src/lib.rs"
+      },
       "dependencies": [],
       "runtime_dependencies": [],
       "build_dependencies": [],
@@ -2788,6 +2972,10 @@
       "proc_macro": false,
       "build_script": null,
       "binaries": [],
+      "lib_target": {
+        "name": "mio",
+        "path": "src/lib.rs"
+      },
       "dependencies": [
         {
           "name": "libc",
@@ -2831,6 +3019,10 @@
       "proc_macro": false,
       "build_script": null,
       "binaries": [],
+      "lib_target": {
+        "name": "nom",
+        "path": "src/lib.rs"
+      },
       "dependencies": [
         {
           "name": "memchr",
@@ -2898,6 +3090,10 @@
       "proc_macro": false,
       "build_script": null,
       "binaries": [],
+      "lib_target": {
+        "name": "once_cell",
+        "path": "src/lib.rs"
+      },
       "dependencies": [],
       "runtime_dependencies": [],
       "build_dependencies": [],
@@ -2920,6 +3116,10 @@
       "proc_macro": false,
       "build_script": null,
       "binaries": [],
+      "lib_target": {
+        "name": "ordered_multimap",
+        "path": "src/lib.rs"
+      },
       "dependencies": [
         {
           "name": "dlv_list",
@@ -2986,6 +3186,10 @@
       "proc_macro": false,
       "build_script": null,
       "binaries": [],
+      "lib_target": {
+        "name": "parking_lot",
+        "path": "src/lib.rs"
+      },
       "dependencies": [
         {
           "name": "lock_api",
@@ -3043,6 +3247,10 @@
       "proc_macro": false,
       "build_script": "build.rs",
       "binaries": [],
+      "lib_target": {
+        "name": "parking_lot_core",
+        "path": "src/lib.rs"
+      },
       "dependencies": [
         {
           "name": "cfg_if",
@@ -3125,6 +3333,10 @@
       "proc_macro": false,
       "build_script": null,
       "binaries": [],
+      "lib_target": {
+        "name": "pathdiff",
+        "path": "src/lib.rs"
+      },
       "dependencies": [],
       "runtime_dependencies": [],
       "build_dependencies": [],
@@ -3147,6 +3359,10 @@
       "proc_macro": false,
       "build_script": null,
       "binaries": [],
+      "lib_target": {
+        "name": "percent_encoding",
+        "path": "src/lib.rs"
+      },
       "dependencies": [],
       "runtime_dependencies": [],
       "build_dependencies": [],
@@ -3170,6 +3386,10 @@
       "proc_macro": false,
       "build_script": null,
       "binaries": [],
+      "lib_target": {
+        "name": "pest",
+        "path": "src/lib.rs"
+      },
       "dependencies": [
         {
           "name": "memchr",
@@ -3237,6 +3457,10 @@
       "proc_macro": true,
       "build_script": null,
       "binaries": [],
+      "lib_target": {
+        "name": "pest_derive",
+        "path": "src/lib.rs"
+      },
       "dependencies": [
         {
           "name": "pest",
@@ -3296,6 +3520,10 @@
       "proc_macro": false,
       "build_script": null,
       "binaries": [],
+      "lib_target": {
+        "name": "pest_generator",
+        "path": "src/lib.rs"
+      },
       "dependencies": [
         {
           "name": "pest",
@@ -3416,6 +3644,10 @@
       "proc_macro": false,
       "build_script": null,
       "binaries": [],
+      "lib_target": {
+        "name": "pest_meta",
+        "path": "src/lib.rs"
+      },
       "dependencies": [
         {
           "name": "pest",
@@ -3474,6 +3706,10 @@
       "proc_macro": false,
       "build_script": null,
       "binaries": [],
+      "lib_target": {
+        "name": "pin_project_lite",
+        "path": "src/lib.rs"
+      },
       "dependencies": [],
       "runtime_dependencies": [],
       "build_dependencies": [],
@@ -3501,6 +3737,10 @@
       "proc_macro": false,
       "build_script": null,
       "binaries": [],
+      "lib_target": {
+        "name": "pleme_config",
+        "path": "src/lib.rs"
+      },
       "dependencies": [
         {
           "name": "config",
@@ -3672,6 +3912,10 @@
       "proc_macro": false,
       "build_script": null,
       "binaries": [],
+      "lib_target": {
+        "name": "potential_utf",
+        "path": "src/lib.rs"
+      },
       "dependencies": [
         {
           "name": "zerovec",
@@ -3714,6 +3958,10 @@
       "proc_macro": false,
       "build_script": "build.rs",
       "binaries": [],
+      "lib_target": {
+        "name": "proc_macro2",
+        "path": "src/lib.rs"
+      },
       "dependencies": [
         {
           "name": "unicode_ident",
@@ -3763,6 +4011,10 @@
       "proc_macro": false,
       "build_script": "build.rs",
       "binaries": [],
+      "lib_target": {
+        "name": "quote",
+        "path": "src/lib.rs"
+      },
       "dependencies": [
         {
           "name": "proc_macro2",
@@ -3811,6 +4063,10 @@
       "proc_macro": false,
       "build_script": null,
       "binaries": [],
+      "lib_target": {
+        "name": "ron",
+        "path": "src/lib.rs"
+      },
       "dependencies": [
         {
           "name": "base64",
@@ -3910,6 +4166,10 @@
       "proc_macro": false,
       "build_script": null,
       "binaries": [],
+      "lib_target": {
+        "name": "ini",
+        "path": "src/lib.rs"
+      },
       "dependencies": [
         {
           "name": "cfg_if",
@@ -3980,6 +4240,10 @@
       "proc_macro": false,
       "build_script": null,
       "binaries": [],
+      "lib_target": {
+        "name": "ryu",
+        "path": "src/lib.rs"
+      },
       "dependencies": [],
       "runtime_dependencies": [],
       "build_dependencies": [],
@@ -3999,6 +4263,10 @@
       "proc_macro": false,
       "build_script": null,
       "binaries": [],
+      "lib_target": {
+        "name": "scopeguard",
+        "path": "src/lib.rs"
+      },
       "dependencies": [],
       "runtime_dependencies": [],
       "build_dependencies": [],
@@ -4023,6 +4291,10 @@
       "proc_macro": false,
       "build_script": "build.rs",
       "binaries": [],
+      "lib_target": {
+        "name": "serde",
+        "path": "src/lib.rs"
+      },
       "dependencies": [
         {
           "name": "serde_core",
@@ -4087,6 +4359,10 @@
       "proc_macro": false,
       "build_script": "build.rs",
       "binaries": [],
+      "lib_target": {
+        "name": "serde_core",
+        "path": "src/lib.rs"
+      },
       "dependencies": [],
       "runtime_dependencies": [],
       "build_dependencies": [],
@@ -4108,6 +4384,10 @@
       "proc_macro": true,
       "build_script": null,
       "binaries": [],
+      "lib_target": {
+        "name": "serde_derive",
+        "path": "src/lib.rs"
+      },
       "dependencies": [
         {
           "name": "proc_macro2",
@@ -4209,6 +4489,10 @@
       "proc_macro": false,
       "build_script": "build.rs",
       "binaries": [],
+      "lib_target": {
+        "name": "serde_json",
+        "path": "src/lib.rs"
+      },
       "dependencies": [
         {
           "name": "itoa",
@@ -4304,6 +4588,10 @@
       "proc_macro": false,
       "build_script": null,
       "binaries": [],
+      "lib_target": {
+        "name": "serde_spanned",
+        "path": "src/lib.rs"
+      },
       "dependencies": [
         {
           "name": "serde",
@@ -4343,6 +4631,10 @@
       "proc_macro": false,
       "build_script": null,
       "binaries": [],
+      "lib_target": {
+        "name": "serde_yaml",
+        "path": "src/lib.rs"
+      },
       "dependencies": [
         {
           "name": "indexmap",
@@ -4461,6 +4753,10 @@
       "proc_macro": false,
       "build_script": null,
       "binaries": [],
+      "lib_target": {
+        "name": "sha2",
+        "path": "src/lib.rs"
+      },
       "dependencies": [
         {
           "name": "cfg_if",
@@ -4543,6 +4839,10 @@
       "proc_macro": false,
       "build_script": null,
       "binaries": [],
+      "lib_target": {
+        "name": "signal_hook_registry",
+        "path": "src/lib.rs"
+      },
       "dependencies": [
         {
           "name": "errno",
@@ -4602,6 +4902,10 @@
       "proc_macro": false,
       "build_script": null,
       "binaries": [],
+      "lib_target": {
+        "name": "smallvec",
+        "path": "src/lib.rs"
+      },
       "dependencies": [],
       "runtime_dependencies": [],
       "build_dependencies": [],
@@ -4623,6 +4927,10 @@
       "proc_macro": false,
       "build_script": null,
       "binaries": [],
+      "lib_target": {
+        "name": "socket2",
+        "path": "src/lib.rs"
+      },
       "dependencies": [
         {
           "name": "libc",
@@ -4662,6 +4970,10 @@
       "proc_macro": false,
       "build_script": null,
       "binaries": [],
+      "lib_target": {
+        "name": "stable_deref_trait",
+        "path": "src/lib.rs"
+      },
       "dependencies": [],
       "runtime_dependencies": [],
       "build_dependencies": [],
@@ -4693,6 +5005,10 @@
       "proc_macro": false,
       "build_script": null,
       "binaries": [],
+      "lib_target": {
+        "name": "syn",
+        "path": "src/lib.rs"
+      },
       "dependencies": [
         {
           "name": "proc_macro2",
@@ -4784,6 +5100,10 @@
       "proc_macro": false,
       "build_script": null,
       "binaries": [],
+      "lib_target": {
+        "name": "synstructure",
+        "path": "src/lib.rs"
+      },
       "dependencies": [
         {
           "name": "proc_macro2",
@@ -4882,6 +5202,10 @@
       "proc_macro": false,
       "build_script": null,
       "binaries": [],
+      "lib_target": {
+        "name": "temp_env",
+        "path": "src/lib.rs"
+      },
       "dependencies": [
         {
           "name": "parking_lot",
@@ -4921,6 +5245,10 @@
       "proc_macro": false,
       "build_script": "build.rs",
       "binaries": [],
+      "lib_target": {
+        "name": "thiserror",
+        "path": "src/lib.rs"
+      },
       "dependencies": [
         {
           "name": "thiserror_impl",
@@ -4967,6 +5295,10 @@
       "proc_macro": true,
       "build_script": null,
       "binaries": [],
+      "lib_target": {
+        "name": "thiserror_impl",
+        "path": "src/lib.rs"
+      },
       "dependencies": [
         {
           "name": "proc_macro2",
@@ -5052,6 +5384,10 @@
       "proc_macro": false,
       "build_script": "build.rs",
       "binaries": [],
+      "lib_target": {
+        "name": "tiny_keccak",
+        "path": "src/lib.rs"
+      },
       "dependencies": [
         {
           "name": "crunchy",
@@ -5093,6 +5429,10 @@
       "proc_macro": false,
       "build_script": null,
       "binaries": [],
+      "lib_target": {
+        "name": "tinystr",
+        "path": "src/lib.rs"
+      },
       "dependencies": [
         {
           "name": "displaydoc",
@@ -5172,6 +5512,10 @@
       "proc_macro": false,
       "build_script": null,
       "binaries": [],
+      "lib_target": {
+        "name": "tokio",
+        "path": "src/lib.rs"
+      },
       "dependencies": [
         {
           "name": "bytes",
@@ -5360,6 +5704,10 @@
       "proc_macro": true,
       "build_script": null,
       "binaries": [],
+      "lib_target": {
+        "name": "tokio_macros",
+        "path": "src/lib.rs"
+      },
       "dependencies": [
         {
           "name": "proc_macro2",
@@ -5450,6 +5798,10 @@
       "proc_macro": false,
       "build_script": null,
       "binaries": [],
+      "lib_target": {
+        "name": "toml",
+        "path": "src/lib.rs"
+      },
       "dependencies": [
         {
           "name": "serde",
@@ -5557,6 +5909,10 @@
       "proc_macro": false,
       "build_script": null,
       "binaries": [],
+      "lib_target": {
+        "name": "toml_datetime",
+        "path": "src/lib.rs"
+      },
       "dependencies": [
         {
           "name": "serde",
@@ -5600,6 +5956,10 @@
       "proc_macro": false,
       "build_script": null,
       "binaries": [],
+      "lib_target": {
+        "name": "toml_edit",
+        "path": "src/lib.rs"
+      },
       "dependencies": [
         {
           "name": "indexmap",
@@ -5741,6 +6101,10 @@
       "proc_macro": false,
       "build_script": null,
       "binaries": [],
+      "lib_target": {
+        "name": "toml_write",
+        "path": "src/lib.rs"
+      },
       "dependencies": [],
       "runtime_dependencies": [],
       "build_dependencies": [],
@@ -5760,6 +6124,10 @@
       "proc_macro": false,
       "build_script": "build.rs",
       "binaries": [],
+      "lib_target": {
+        "name": "typenum",
+        "path": "src/lib.rs"
+      },
       "dependencies": [],
       "runtime_dependencies": [],
       "build_dependencies": [],
@@ -5781,6 +6149,10 @@
       "proc_macro": false,
       "build_script": null,
       "binaries": [],
+      "lib_target": {
+        "name": "ucd_trie",
+        "path": "src/lib.rs"
+      },
       "dependencies": [],
       "runtime_dependencies": [],
       "build_dependencies": [],
@@ -5800,6 +6172,10 @@
       "proc_macro": false,
       "build_script": null,
       "binaries": [],
+      "lib_target": {
+        "name": "unicode_ident",
+        "path": "src/lib.rs"
+      },
       "dependencies": [],
       "runtime_dependencies": [],
       "build_dependencies": [],
@@ -5819,6 +6195,10 @@
       "proc_macro": false,
       "build_script": null,
       "binaries": [],
+      "lib_target": {
+        "name": "unicode_segmentation",
+        "path": "src/lib.rs"
+      },
       "dependencies": [],
       "runtime_dependencies": [],
       "build_dependencies": [],
@@ -5847,6 +6227,10 @@
           "path": "src/bin/run-parser-test-suite.rs"
         }
       ],
+      "lib_target": {
+        "name": "unsafe_libyaml",
+        "path": "src/lib.rs"
+      },
       "dependencies": [],
       "runtime_dependencies": [],
       "build_dependencies": [],
@@ -5869,6 +6253,10 @@
       "proc_macro": false,
       "build_script": null,
       "binaries": [],
+      "lib_target": {
+        "name": "url",
+        "path": "src/lib.rs"
+      },
       "dependencies": [
         {
           "name": "form_urlencoded",
@@ -5979,6 +6367,10 @@
       "proc_macro": false,
       "build_script": null,
       "binaries": [],
+      "lib_target": {
+        "name": "utf8_iter",
+        "path": "src/lib.rs"
+      },
       "dependencies": [],
       "runtime_dependencies": [],
       "build_dependencies": [],
@@ -5998,6 +6390,10 @@
       "proc_macro": false,
       "build_script": null,
       "binaries": [],
+      "lib_target": {
+        "name": "version_check",
+        "path": "src/lib.rs"
+      },
       "dependencies": [],
       "runtime_dependencies": [],
       "build_dependencies": [],
@@ -6021,6 +6417,10 @@
       "proc_macro": false,
       "build_script": null,
       "binaries": [],
+      "lib_target": {
+        "name": "winnow",
+        "path": "src/lib.rs"
+      },
       "dependencies": [
         {
           "name": "memchr",
@@ -6060,6 +6460,10 @@
       "proc_macro": false,
       "build_script": null,
       "binaries": [],
+      "lib_target": {
+        "name": "writeable",
+        "path": "src/lib.rs"
+      },
       "dependencies": [],
       "runtime_dependencies": [],
       "build_dependencies": [],
@@ -6095,6 +6499,10 @@
           "path": "tools/time_parse.rs"
         }
       ],
+      "lib_target": {
+        "name": "yaml_rust2",
+        "path": "src/lib.rs"
+      },
       "dependencies": [
         {
           "name": "arraydeque",
@@ -6173,6 +6581,10 @@
       "proc_macro": false,
       "build_script": null,
       "binaries": [],
+      "lib_target": {
+        "name": "yoke",
+        "path": "src/lib.rs"
+      },
       "dependencies": [
         {
           "name": "stable_deref_trait",
@@ -6255,6 +6667,10 @@
       "proc_macro": true,
       "build_script": null,
       "binaries": [],
+      "lib_target": {
+        "name": "yoke_derive",
+        "path": "src/lib.rs"
+      },
       "dependencies": [
         {
           "name": "proc_macro2",
@@ -6361,6 +6777,10 @@
       "proc_macro": false,
       "build_script": "build.rs",
       "binaries": [],
+      "lib_target": {
+        "name": "zerocopy",
+        "path": "src/lib.rs"
+      },
       "dependencies": [],
       "runtime_dependencies": [],
       "build_dependencies": [],
@@ -6382,6 +6802,10 @@
       "proc_macro": false,
       "build_script": null,
       "binaries": [],
+      "lib_target": {
+        "name": "zerofrom",
+        "path": "src/lib.rs"
+      },
       "dependencies": [
         {
           "name": "zerofrom_derive",
@@ -6428,6 +6852,10 @@
       "proc_macro": true,
       "build_script": null,
       "binaries": [],
+      "lib_target": {
+        "name": "zerofrom_derive",
+        "path": "src/lib.rs"
+      },
       "dependencies": [
         {
           "name": "proc_macro2",
@@ -6535,6 +6963,10 @@
       "proc_macro": false,
       "build_script": null,
       "binaries": [],
+      "lib_target": {
+        "name": "zerotrie",
+        "path": "src/lib.rs"
+      },
       "dependencies": [
         {
           "name": "displaydoc",
@@ -6617,6 +7049,10 @@
       "proc_macro": false,
       "build_script": null,
       "binaries": [],
+      "lib_target": {
+        "name": "zerovec",
+        "path": "src/lib.rs"
+      },
       "dependencies": [
         {
           "name": "yoke",
@@ -6699,6 +7135,10 @@
       "proc_macro": true,
       "build_script": null,
       "binaries": [],
+      "lib_target": {
+        "name": "zerovec_derive",
+        "path": "src/lib.rs"
+      },
       "dependencies": [
         {
           "name": "proc_macro2",
@@ -6785,6 +7225,10 @@
       "proc_macro": false,
       "build_script": "build.rs",
       "binaries": [],
+      "lib_target": {
+        "name": "zmij",
+        "path": "src/lib.rs"
+      },
       "dependencies": [],
       "runtime_dependencies": [],
       "build_dependencies": [],
